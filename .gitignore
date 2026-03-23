@@ -1,0 +1,12 @@
+# root .gitignore
+node_modules/
+dist/
+.env
+.DS_Store
+*.log
+
+# Server specific
+server/node_modules/
+server/dist/
+
+# Frontend (now at root) remains covered by top rules
